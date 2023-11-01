@@ -10,6 +10,6 @@ import { CharactersCollection } from "./CharactersCollection";
 
 
 const characterersCollection = new CharactersCollection('Xaayb');
-const sorter = new Sorter(characterersCollection);
-sorter.sort();
-console.log(sorter.collection);
+
+characterersCollection.sort();
+console.log(characterersCollection.data);
